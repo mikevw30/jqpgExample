@@ -1,6 +1,6 @@
 package com.me.jqpgExample;
 
-import import com.phonegap.*;
+import com.phonegap.*;
 import android.os.Bundle;
 
 public class MyPhoneGapActivity extends DroidGap {
