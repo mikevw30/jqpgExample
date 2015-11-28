@@ -1,7 +1,6 @@
 package com.me.jqpgExample;
 
 import com.phonegap.*;
-import android.os.Bundle;
 
 public class MyPhoneGapActivity extends DroidGap {
 	@Override

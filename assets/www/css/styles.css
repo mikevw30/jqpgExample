@@ -1,0 +1,149 @@
+body{
+	font-size: 20;	
+	background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.mainMenu{	
+	width: auto;
+  height: auto;
+  margin-top: 44%;
+  margin-left: 17%;
+	color: white;
+  float :left;
+}
+
+.mainMenuButtons{	
+	width: 100%;
+	margin-left: 20%;
+	margin-top: 10px;
+	color: white;
+  float :left;
+}
+
+#headerContainer{
+	height:5%;
+	width: 100%;
+	margin: auto auto;
+	color: white;
+}
+
+#bodyContainer{
+	width: 100%;
+	height:100%;
+	margin: auto auto;
+	color: white;
+}
+
+#menuContainer{
+	float: left;
+	margin-bottom: 10px;
+	color: white;
+	width: 100%;
+}
+button{
+	width:23%;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 10px;
+}
+#rulesAndHowToLink{
+	margin-left: 9px;
+	width:170px;
+}
+
+#generationLable{
+	margin-left:10px;
+	margin-top: 20px;
+	width: 100px;
+	float: left;
+}
+#generation{
+	margin-top: 20px;
+	width: 50px;
+	float: left;
+}
+
+#sliderContainer{
+	float: left;
+	margin-left: 10px;
+	color: white;
+}
+
+#slider {
+	float: left;
+	width: 140px;
+}
+
+#grid{
+	background-color: white;
+	float: left;
+	width: 100%;
+}
+
+td {
+	border: solid 1px silver;
+	width: 20px;
+	background-color: white:
+}
+
+td.naturalDeath {
+	background-color: #CCFFCC;
+}
+
+td.alive {
+	background-color: green;
+}
+
+p{
+	margin: 1px;
+	font-size: 20;
+	color: white;
+}
+.infoText{
+	color: white;
+}
+
+*.unselectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#rulesContainer{
+	float:left;
+	height:100%;
+	width: 100%;
+	margin-top: 20px;
+}
+.rulesText{
+	margin-left: 50px;
+}
+#header{
+	float:left;
+	width:250px;
+	margin: 5px;
+}
+
+h2{
+	margin:10px;
+}
+
+h4{
+	margin:10px;
+}
+
+a:link {
+color: green;
+}
+
+a:visited {
+color: white;
+}
+
+a:active {
+color: red;
+}
