@@ -1,0 +1,32 @@
+<html>
+  <title>Game Of Life</title>
+  <body class="unselectable">
+    <div id="headerContainer">
+      <div id="rulesAndHowToLink" >
+         <a href="index.html">Main Menu</a>
+      </div>
+    </div>
+    <div id="bodyContainer">
+      <div id="menuContainer">
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+        <button id="populateButton">Populate</button>
+        <button id="clearButton">Clear</button> 
+      </div>
+      <table id="grid"></table>
+      <div id="generationLable" class="infoText">Generation:</div>
+      <div id="generation" class="infoText">0</div>
+    </div>
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+      <script type="text/javascript">
+          app.initialize();
+      </script>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script src="js/scripts.js"></script>
+      <script src="js/cell.js"></script>
+      <script src="js/jqueryui.js"></script>
+      <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+      <link rel="stylesheet" href="css/styles.css" TYPE="text/css">
+  </body>
+</html>
